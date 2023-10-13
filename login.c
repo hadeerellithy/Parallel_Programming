@@ -43,7 +43,6 @@ int main() {
     while (1) {
         printf("1. Register\n");
         printf("2. Login\n");
-        printf("3. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
         switch (choice) {
@@ -53,8 +52,6 @@ int main() {
             case 2:
                 loginUser();
                 break;
-            case 3:
-                exit(0);
             default:
                 printf("Invalid choice. Please try again.\n");
         }
